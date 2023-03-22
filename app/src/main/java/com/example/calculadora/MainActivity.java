@@ -33,15 +33,15 @@ public class MainActivity extends AppCompatActivity {
             int res = n1 - n2;
         }
         public void multiplicacao(View v){
-            int n1 = Integer.parseInt(numero1.getText().toString());
-            int n2 = Integer.parseInt(numero2.getText().toString());
-            int res = Integer.parseInt(resultado.getText().toString());
+            int n1 = Integer.parseInt(N1.getText().toString());
+            int n2 = Integer.parseInt(N2.getText().toString());
+            int res = Integer.parseInt(RT.getText().toString());
             int res = n1 * n2;
         }
         public void divisao(View v){
-            int n1 = Integer.parseInt(numero1.getText().toString());
-            int n2 = Integer.parseInt(numero2.getText().toString());
-            int res = Integer.parseInt(resultado.getText().toString());
+            int n1 = Integer.parseInt(N1.getText().toString());
+            int n2 = Integer.parseInt(N2.getText().toString());
+            int res = Integer.parseInt(RT.getText().toString());
             int res = n1 / n2;
         }
 }
