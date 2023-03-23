@@ -23,25 +23,25 @@ public class MainActivity extends AppCompatActivity {
     public void soma(View v){
         int n1 = Integer.parseInt(N1.getText().toString());
         int n2 = Integer.parseInt(N2.getText().toString());
-        int res = Integer.parseInt(RT.getText().toString());
         int res = n1 + n2;
+        RT.setText(res+"");
         }
         public void subtracao(View v){
             int n1 = Integer.parseInt(N1.getText().toString());
             int n2 = Integer.parseInt(N2.getText().toString());
-            int res = Integer.parseInt(RT.getText().toString());
             int res = n1 - n2;
+            RT.setText(res+"");
         }
         public void multiplicacao(View v){
             int n1 = Integer.parseInt(N1.getText().toString());
             int n2 = Integer.parseInt(N2.getText().toString());
-            int res = Integer.parseInt(RT.getText().toString());
             int res = n1 * n2;
+            RT.setText(res+"");
         }
         public void divisao(View v){
             int n1 = Integer.parseInt(N1.getText().toString());
             int n2 = Integer.parseInt(N2.getText().toString());
-            int res = Integer.parseInt(RT.getText().toString());
             int res = n1 / n2;
+            RT.setText(res+"");
         }
 }
